@@ -16,7 +16,11 @@ namespace FactorialLinq
     {
         static void Main(string[] args)
         {
-            
+            int number = 15;
+            Console.WriteLine($"!{number}: {FactorialFind.Find(number)}");
+
+            //Delay
+            Console.ReadKey();
         }
     }
 }
